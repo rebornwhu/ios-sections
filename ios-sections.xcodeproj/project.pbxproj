@@ -16,6 +16,7 @@
 		89A6D6FC1BCA0C2B004B81AF /* ios_sectionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6D6FB1BCA0C2B004B81AF /* ios_sectionsUITests.swift */; };
 		89A6D70A1BCA0C42004B81AF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 89A6D7091BCA0C42004B81AF /* .gitignore */; settings = {ASSET_TAGS = (); }; };
 		89A6D70C1BCA0EC3004B81AF /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89A6D70B1BCA0EC3004B81AF /* sortednames.plist */; settings = {ASSET_TAGS = (); }; };
+		89A6D7101BCA1D5C004B81AF /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A6D70F1BCA1D5C004B81AF /* SearchResultsController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		89A6D6FD1BCA0C2B004B81AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89A6D7091BCA0C42004B81AF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		89A6D70B1BCA0EC3004B81AF /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = sortednames.plist; path = "../../../../Downloads/Beginning iPhone Development with Swift - source code/Examples/08 - Sections Data/sortednames.plist"; sourceTree = "<group>"; };
+		89A6D70F1BCA1D5C004B81AF /* SearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				89A6D6E41BCA0C2B004B81AF /* LaunchScreen.storyboard */,
 				89A6D6E71BCA0C2B004B81AF /* Info.plist */,
 				89A6D70B1BCA0EC3004B81AF /* sortednames.plist */,
+				89A6D70F1BCA1D5C004B81AF /* SearchResultsController.swift */,
 			);
 			path = "ios-sections";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89A6D6DE1BCA0C2B004B81AF /* ViewController.swift in Sources */,
+				89A6D7101BCA1D5C004B81AF /* SearchResultsController.swift in Sources */,
 				89A6D6DC1BCA0C2B004B81AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
